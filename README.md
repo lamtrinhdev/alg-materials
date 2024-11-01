@@ -9,5 +9,6 @@ Each edition has its own branch, named `editions/[EDITION]`. The default branch 
 
 | Branch                                                                           | Edition | Release Date |
 | -------------------------------------------------------------------------------- |:-------:|:------------:|
+| [editions/5.0](https://github.com/raywenderlich/alg-materials/tree/editions/5.0) | 5.0     | YYYY-MM-DD   |
 | [editions/4.0](https://github.com/raywenderlich/alg-materials/tree/editions/4.0) | 4.0     | 2021-09-15   |
 | [editions/3.0](https://github.com/raywenderlich/alg-materials/tree/editions/3.0) | 3.0     | 2019-10-02   |
