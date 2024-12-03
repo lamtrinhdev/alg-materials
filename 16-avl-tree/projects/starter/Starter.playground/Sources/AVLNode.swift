@@ -22,7 +22,7 @@ extension AVLNode: CustomStringConvertible {
                        _ top: String = "",
                        _ root: String = "",
                        _ bottom: String = "") -> String {
-    guard let node = node else {
+    guard let node else {
       return root + "nil\n"
     }
     if node.leftChild == nil && node.rightChild == nil {
