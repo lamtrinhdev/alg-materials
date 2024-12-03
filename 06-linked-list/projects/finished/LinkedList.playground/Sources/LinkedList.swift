@@ -66,7 +66,7 @@ public struct LinkedList<Value> {
   @discardableResult
   public mutating func removeLast() -> Value? {
     copyNodes()
-    guard let head = head else {
+    guard let head else {
       return nil
     }
     guard head.next != nil else {
@@ -143,7 +143,7 @@ public struct LinkedList<Value> {
 extension LinkedList: CustomStringConvertible {
   
   public var description: String {
-    guard let head = head else {
+    guard let head else {
       return "Empty list"
     }
     return String(describing: head)
