@@ -24,12 +24,12 @@ extension BinaryNode where Element: Comparable {
   private func isBST(_ tree: BinaryNode<Element>?,
                      min: Element?,
                      max: Element?) -> Bool {
-    guard let tree = tree else {
+    guard let tree else {
       return true
     }
-    if let min = min, tree.value <= min {
+    if let min, tree.value <= min {
       return false
-    } else if let max = max, tree.value > max {
+    } else if let max, tree.value > max {
       return false
     }
     return isBST(tree.leftChild, min: min, max: tree.value) &&
